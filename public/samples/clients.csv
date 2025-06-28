@@ -1,0 +1,7 @@
+
+ClientID,ClientName,PriorityLevel,RequestedTaskIDs,GroupTag,AttributesJSON
+C001,Acme Corp,5,"T001,T002,T003",Enterprise,"{""budget"": 50000, ""deadline"": ""2024-03-15""}"
+C002,TechStart,3,"T002,T004",Startup,"{""budget"": 15000}"
+C003,Global Industries,4,"T001,T003,T005",Enterprise,"{""budget"": 75000, ""region"": ""EMEA""}"
+C004,Local Business,2,"T004,T005",SMB,"{""budget"": 8000}"
+C005,Innovation Labs,5,"T001,T002,T004,T005",Enterprise,"{""budget"": 100000, ""priority"": ""urgent""}"

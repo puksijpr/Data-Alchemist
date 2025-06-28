@@ -1,0 +1,7 @@
+
+WorkerID,WorkerName,Skills,AvailableSlots,MaxLoadPerPhase,WorkerGroup,QualificationLevel
+W001,John Developer,"javascript,python,react","1,2,3,4,5",3,Engineering,4
+W002,Sarah Designer,"ui-design,ux,figma","1,3,5",2,Design,5
+W003,Mike Analyst,"data-analysis,sql,python","2,3,4",2,Analytics,3
+W004,Lisa Manager,"project-management,agile","1,2,3,4,5",4,Management,4
+W005,Tom Engineer,"backend,nodejs,mongodb","1,2,4,5",3,Engineering,3
