@@ -1,5 +1,5 @@
 // src/lib/validators/clientValidator.ts
-import { Client, Task, ValidationError } from "@/lib/types";
+import { Client, Task, ValidationError } from "@/lib/type";
 
 export function validateClients(
   clients: Client[],
