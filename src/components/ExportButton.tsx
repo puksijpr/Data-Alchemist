@@ -1,6 +1,6 @@
 // src/components/ExportButton.tsx
 import { Download } from "lucide-react";
-import { Client, Worker, Task, Rule, PriorityWeights } from "@/lib/types";
+import { Client, Worker, Task, Rule, PriorityWeights } from "@/lib/type";
 import * as XLSX from "xlsx";
 
 interface ExportButtonProps {
