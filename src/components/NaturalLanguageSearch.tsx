@@ -1,7 +1,7 @@
 // src/components/NaturalLanguageSearch.tsx
 import { useState } from "react";
 import { Search } from "lucide-react";
-import { Client, Worker, Task } from "@/lib/types";
+import { Client, Worker, Task } from "@/lib/type";
 
 interface NaturalLanguageSearchProps {
   data: {
