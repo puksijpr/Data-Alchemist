@@ -1,6 +1,6 @@
 // src/components/RuleBuilder.tsx
 import { useState } from "react";
-import { Client, Worker, Task, Rule } from "@/lib/types";
+import { Client, Worker, Task, Rule } from "@/lib/type";
 import { Plus, Trash2 } from "lucide-react";
 
 interface RuleBuilderProps {
