@@ -7,7 +7,7 @@ import { validateTasks } from "@/lib/validators/taskValidator";
 export async function POST(request: NextRequest) {
   try {
     const { type, data, allData } = await request.json();
-    let errors : string[] = [];
+    let errors : ValidationError[] = [];
 
     switch (type) {
       case "clients":
