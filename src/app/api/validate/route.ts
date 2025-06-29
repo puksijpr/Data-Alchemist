@@ -1,13 +1,13 @@
 // src/app/api/validate/route.ts
 import { NextRequest, NextResponse } from "next/server";
-import { validateClients } from "@/lib/validators/clientValidator";
+import { validateClients } from "@/lib/validators/clientValidators";
 import { validateWorkers } from "@/lib/validators/workerValidator";
 import { validateTasks } from "@/lib/validators/taskValidator";
 
 export async function POST(request: NextRequest) {
   try {
     const { type, data, allData } = await request.json();
-    let errors = [];
+    let errors : string[] = [];
 
     switch (type) {
       case "clients":
