@@ -1,6 +1,6 @@
 // src/components/DataGrid.tsx
 import { useState, useEffect } from "react";
-import { ValidationError } from "@/lib/types";
+import { ValidationError } from "@/lib/type";
 
 interface DataGridProps {
   data: any[];
