@@ -1,5 +1,5 @@
 // src/components/PrioritySliders.tsx
-import { PriorityWeights } from "@/lib/types";
+import { PriorityWeights } from "@/lib/type";
 import * as Slider from "@radix-ui/react-slider";
 
 interface PrioritySliderProps {
