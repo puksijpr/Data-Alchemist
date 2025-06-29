@@ -1,5 +1,5 @@
 // src/lib/validators/workerValidator.ts
-import { Worker, Task, ValidationError } from "@/lib/types";
+import { Worker, Task, ValidationError } from "@/lib/type";
 
 export function validateWorkers(
   workers: Worker[],
