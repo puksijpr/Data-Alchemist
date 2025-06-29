@@ -1,5 +1,5 @@
 // src/components/ValidationPanel.tsx
-import { ValidationError } from "@/lib/types";
+import { ValidationError } from "@/lib/type";
 import { AlertCircle, AlertTriangle, CheckCircle } from "lucide-react";
 
 interface ValidationPanelProps {
